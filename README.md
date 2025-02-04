@@ -22,15 +22,13 @@ Ambos os sistemas utilizam as funções **add_repeating_timer_ms()** e **add_ala
 🔴 **Inicia no vermelho**, alternando para amarelo e depois para verde.  
 ⏳ **Troca de estado a cada 3 segundos** usando a função `add_repeating_timer_ms()`.  
 💻 **Exibe mensagens na serial** a cada segundo.  
-🛠 **Utiliza três LEDs (vermelho, amarelo e verde) e resistores de 330Ω**.  
-💡 **Experimento opcional** com LED RGB nos GPIOs 11, 12 e 13 via BitDogLab.  
+🛠 **Utiliza três LEDs (vermelho, amarelo e verde) e resistores de 330Ω**.    
 
 ### ✅ Atividade 2: Temporizador de Um Disparo (One Shot)  
 🔘 **Os LEDs são acionados pelo pressionamento de um botão (pushbutton)**.  
 🌟 **Os LEDs acendem progressivamente e apagam em sequência** após 3 segundos entre cada estágio.  
 ⏳ **Utiliza a função `add_alarm_in_ms()` para temporização**.  
-🔄 **O botão só pode ser pressionado novamente após a última etapa**.  
-💡 **Experimento opcional** com LED RGB e debounce no botão via BitDogLab.  
+🔄 **O botão só pode ser pressionado novamente após a última etapa**.   
 
 ## 📜 Requisitos do Projeto  
 1️⃣ **Ambiente de desenvolvimento VS Code** configurado com **Pico SDK**.  
