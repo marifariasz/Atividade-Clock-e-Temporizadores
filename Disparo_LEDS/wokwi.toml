@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/Disparo_leds.uf2'
+elf = 'buildDisparo_leds.elf'
